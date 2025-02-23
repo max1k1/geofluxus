@@ -1,0 +1,31 @@
+.reportPageContainer {
+    background-color: var(--color-fill-primary);
+    min-height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: var(--color-fill-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section {
+    padding: 2rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.section:last-child {
+   border-bottom: none;
+}
+
+.selectCardTitle {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color-link);
+}

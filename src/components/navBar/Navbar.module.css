@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-fill-quaternary);
+    padding: 1rem;
+}
+
+.navbar a {
+    color: var(--text-color-link);
+    text-decoration: none;
+    font-weight: 500;
+}
